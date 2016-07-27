@@ -34,5 +34,5 @@ printf("\nThe culmative sum of the elements is %d\n",b[i]);
 else{
 printf("Sorry, the number you inputed wasn't greater than 1.\n");
 }
-
+return 0;
 }
