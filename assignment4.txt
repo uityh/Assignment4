@@ -1,0 +1,41 @@
+Matthew Kellerman
+
+1.
+You can concatenate strings in C by either using the strcat function, or by
+making two arrays and not putting a value in, and using indexing to replace
+the first string's '\0' with the beginning of the next string.
+
+2.
+If an array is not initialized, the size will be automatically set to the 
+number of values already in the array. 
+Ex. int arr[] = {1,2,3};
+The size will be automatically set to 3.
+If the array has a size, but no values in it, the values will be set to zero.
+Ex. int arr[3]= {};
+
+3.
+You would declare a multidimensional array of size 64 by making a int array
+with the numbers in [][] being able to multiple to 64, such as 8 and 8.
+
+4.
+strcmp() compares one string to another one. It returns 0 if the strings are
+the same, returns a positive number if the second string comes before the
+first string in lexiographic order, and returns a negative number if the 
+first string comes before the second string in lexographic order.
+
+fgets() reads string input and returns the string that was inputed. It 
+however reads the '\n', and not the string terminator.
+
+strcat() concatenates two strings and returns the combination of the two 
+strings.
+
+strlen() gets and returns the length of a string excluding '\0'.
+
+
+
+
+
+
+
+
+
